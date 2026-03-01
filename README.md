@@ -20,3 +20,4 @@ Year 3: $1295.03
 Year 4: $1411.58
 Year 5: $1538.62
 ```
+# compound-interest-calculator
