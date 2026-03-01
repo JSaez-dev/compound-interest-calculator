@@ -1,23 +1,34 @@
+
 # Compound Interest Calculator
 
-calculates future value of an investment using interest formula.
+Calculates future value of an investment using compound interest formula.
+Supports optional monthly contributions and shows a detailed year-by-year breakdown.
 
-##How To Run
-```bash
-python calculadora.py
-```
+## Features
 
-##Example Output
-```
+- Compound interest calculation with annual rate
+- Optional monthly contributions
+- Year-by-year breakdown of balance, total invested, and interest earned
+- Final summary comparing total invested vs total gained
+
+## How to run
+
+python3 calculadora.py
+
+## Example output
+
+=== Compound Interest Calculator ===
+
 Initial capital ($): 1000
 Annual interest rate (e.g. 0.09 for 9%): 0.09
-Number of year: 5
-Growth projection:
-------------------------------
-Year 1: $1090.0
-Year 2: $1188.1
-Year 3: $1295.03
-Year 4: $1411.58
-Year 5: $1538.62
-```
-# compound-interest-calculator
+Number of years: 5
+Monthly contribution ($) (0 if none): 50
+
+Year-by-year breakdown:
+-------------------------------------------------------
+Year        Balance     Invested     Interest
+-------------------------------------------------------
+1           $1723.88    $1600.0      $123.88
+2           $2515.66    $2200.0      $315.66
+3           $3381.71    $2800.0      $581.71
+4           $4329.01
